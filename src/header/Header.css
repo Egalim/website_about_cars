@@ -1,0 +1,40 @@
+.header_back{
+    background-image: url(..\assets\Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 80px;
+    border-radius: 20px;
+    min-height: 700px;
+}
+
+.header_info{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0;
+    gap: 50px;;
+}
+.header_info h1{
+    line-height: 110%;
+}
+
+.btn_header{
+    display: flex;
+    gap: 15px;
+}
+.btn_header button{
+    display: flex;
+    padding: 15px 48px;
+    border-radius: 8px;
+    text-align: center;
+}
+.entry{
+    background-color: #FF001D;
+    
+}
+.consulting{
+    background-color: inherit;
+    border: 1px solid white;
+}
+.consulting p{
+    margin-left: 5px;
+}

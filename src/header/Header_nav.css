@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: #282828;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_left{
+    display: flex;
+    gap: 20px;
+    align-items:  center;
+}
+.dropdown_btn{
+    padding: 10px 20px;
+    background-color: #FF001D;
+    border-radius: 8px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 60px;
+}
